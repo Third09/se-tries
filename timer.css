@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'kongtext';
+    src: url('kongtext/kongtext.ttf');
+    font-style:normal;
+    font-weight: normal;
+}
+
+.cont{
+    width:99vw;
+    height: 99vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer-box {
+    background: #D1B89E;
+    border: #5C2F22 5px solid;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 450px ;
+    height: 250px;
+  }
+  
+  #timer-display {
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: 'kongtext';
+    
+  }
+  
+  input[type="time"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .period{
+    display: flex;
+    flex-direction: row;
+  }
+  
+.buttons{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFAA4B;
+    justify-content: center;
+
+    margin-right: 40px;
+}
+
+  .buttons button {
+    padding: 10px 20px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #4D2422;
+    cursor: pointer;
+    background: none;
+  }
+  

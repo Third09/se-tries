@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+<div class="cont">
+<div class="timer-box">
+  <h2>Countdown Timer</h2>
+  <input type="time" id="timeInput" step="1">
+  <div id="timer-display">00:00:00</div>
+  <div class="period">
+  <div class="buttons">
+    <button onclick="setTime()">Start</button>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+  </div>
+
+  <div class="buttons">
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+  </div>
+</div>
+</div>
+
+<script src="timer.js"></script>
+</body>
+</html>
